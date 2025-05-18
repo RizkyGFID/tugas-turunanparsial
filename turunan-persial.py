@@ -10,7 +10,7 @@ st.title("📈 Aplikasi Turunan Parsial")
 x, y = sp.symbols('x y')
 
 # Input fungsi dari pengguna
-fungsi_str = st.text_input("Masukkan fungsi f(x, y):", "x*3 + y + y*2")
+fungsi_str = st.text_input("Masukkan fungsi f(x, y):", "x**3 + y + y**2")
 
 try:
     # Mengubah string fungsi menjadi ekspresi simbolik
