@@ -50,7 +50,7 @@ try:
     Z = f_lambdified(X, Y)
 
     # Hitung bidang singgung secara numerik
-    Z_tangent = float(f_val) + float(fx_val)(X - x0) + float(fy_val)(Y - y0)
+    Z_tangent = float(f_val) + float(fx_val)*(X - x0) + float(fy_val)*(Y - y0)
 
     # Plot menggunakan matplotlib
     fig = plt.figure(figsize=(10, 6))
